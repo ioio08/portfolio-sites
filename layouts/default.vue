@@ -65,7 +65,7 @@ export default {
         {
           icon: 'mdi-apps',
           title: '静的サイト一覧',
-          to: '/static'
+          to: '/statics'
         },
         {
           icon: 'mdi-chart-bubble',

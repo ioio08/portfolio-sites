@@ -19,7 +19,7 @@
                 </v-row>
               </v-card-text>
               <v-card-actions>
-                <v-btn to="/static">静的サイト一覧へ</v-btn>
+                <v-btn to="/statics">静的サイト一覧へ</v-btn>
               </v-card-actions>
             </v-col>
             <v-col cols="12" sm="6">
