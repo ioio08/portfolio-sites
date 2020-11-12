@@ -60,7 +60,7 @@ export default {
         {
           icon: 'mdi-apps',
           title: '動的サイト一覧',
-          to: '/dynamic'
+          to: '/dynamics'
         },
         {
           icon: 'mdi-apps',

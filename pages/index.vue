@@ -40,7 +40,7 @@
                 </v-row>
               </v-card-text>
               <v-card-actions>
-                <v-btn to="/dynamic">動的サイト一覧へ</v-btn>
+                <v-btn to="/dynamics">動的サイト一覧へ</v-btn>
               </v-card-actions>
             </v-col>
           </v-row>
