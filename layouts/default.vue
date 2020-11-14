@@ -31,7 +31,10 @@
       app
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-toolbar-title v-text="title" />
+      <v-spacer />
+      <nuxt-link to="/">
+        <v-toolbar-title v-text="title" />
+      </nuxt-link>
       <v-spacer />
     </v-app-bar>
 
@@ -66,3 +69,15 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.v-toolbar__title {
+  font-size: 25px;
+  margin-right: 50px;
+
+}
+.v-application a{
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+}
+</style>
