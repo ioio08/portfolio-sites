@@ -52,7 +52,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
   export default {
     computed: {
       ...mapGetters(['getDynamicsData']),
-      dynamics: function () {
+      dynamics() {
         return this.getDynamicsData(this.$route.params.id);
       },
       fas () {
