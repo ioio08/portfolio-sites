@@ -59,12 +59,13 @@
 </template>
 
 <script>
+
 export default {
   props: {
-    contents : {
+    contents: {
       type:Array,
       default: true,
-    }
+    },
   },
 }
 </script>
