@@ -8,6 +8,7 @@
           <v-card-title><h2>{{ dynamics.title }} </h2> </v-card-title>
           <v-img style="width:700px" :src="dynamics.img"></v-img>
           <v-card-actions style="justify-content:flex-end">
+            <v-icon></v-icon>
             <v-btn :href="dynamics.to">リンク</v-btn>
           </v-card-actions>
         </v-col>
