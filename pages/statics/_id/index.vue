@@ -8,6 +8,7 @@
           <v-card-title><h2>{{ statics.title }} </h2> </v-card-title>
           <v-img style="width:700px" :src="statics.img"></v-img>
           <v-card-actions style="justify-content:flex-end">
+            <fa :icon="faGithub" @click="onClickGitHub" />
             <v-btn :href="statics.to">リンク</v-btn>
           </v-card-actions>
         </v-col>
@@ -28,7 +29,12 @@
             </v-row>
           </v-card-text>
           <v-divider></v-divider>
-          <v-card-subtitle>出来る事</v-card-subtitle>
+          <v-card-subtitle>機能</v-card-subtitle>
+          <v-card-text>
+            <v-sheet></v-sheet>
+          </v-card-text>
+          <v-divider></v-divider>
+          <v-card-subtitle>注力ポイント</v-card-subtitle>
           <v-card-text>
             <v-sheet></v-sheet>
           </v-card-text>
@@ -39,7 +45,9 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex';
+import { mapGetters } from 'vuex'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
   export default {
     computed: {
@@ -47,6 +55,18 @@ import { mapGetters } from 'vuex';
       statics: function () {
         return this.getStaticsData(this.$route.params.id);
       },
+      fas () {
+        return fas
+      },
+      faGithub () {
+        return faGithub
+      }
     },
+    methods: {
+      onClickGitHub() {
+        const url = this.dynamics.git
+        window.location.href = url
+      }
+    }
   }
 </script>

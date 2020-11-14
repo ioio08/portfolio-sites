@@ -8,7 +8,7 @@
           <v-card-title><h2>{{ dynamics.title }} </h2> </v-card-title>
           <v-img style="width:700px" :src="dynamics.img"></v-img>
           <v-card-actions style="justify-content:flex-end">
-             <fa :icon="faGithub" />
+            <fa :icon="faGithub" @click="onClickGitHub" />
             <v-btn :href="dynamics.to">リンク</v-btn>
           </v-card-actions>
         </v-col>
@@ -29,7 +29,12 @@
             </v-row>
           </v-card-text>
           <v-divider></v-divider>
-          <v-card-subtitle>出来る事</v-card-subtitle>
+          <v-card-subtitle>機能</v-card-subtitle>
+          <v-card-text>
+            <v-sheet></v-sheet>
+          </v-card-text>
+          <v-divider></v-divider>
+          <v-card-subtitle>注力ポイント</v-card-subtitle>
           <v-card-text>
             <v-sheet></v-sheet>
           </v-card-text>
@@ -40,7 +45,7 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex';
+import { mapGetters } from 'vuex'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
@@ -57,5 +62,25 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
         return faGithub
       }
     },
+    methods: {
+      onClickGitHub() {
+        const url = this.dynamics.git
+        window.location.href = url
+      }
+    }
   }
 </script>
+
+<style lang="scss" scoped>
+.fa-github {
+  font-size:38px;
+  margin-right: 30px;
+  cursor: pointer;
+  &:hover {
+    opacity: .8;
+    border: 1px solid #000;
+    border-radius: 50%;
+  }
+
+}
+</style>
