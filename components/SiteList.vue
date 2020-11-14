@@ -29,7 +29,27 @@
         </v-container>
       </v-card>
       <v-spacer></v-spacer>
-      <v-row align="center">
+      <v-row align="center" justify="space-around" style="margin-top: 20px;">
+        <v-col cols="12" sm="6" >
+          <nuxt-link to=" '/dynamics' + 1">
+            <v-card hover>
+              <v-card-subtitle>Todos </v-card-subtitle>
+              <v-divider></v-divider>
+              <v-card-text>
+                <v-img src="/images/js/Bingo.png" ></v-img>
+              </v-card-text>
+              <v-divider></v-divider>
+              <v-card-subtitle style="padding-bottom:0;">使用言語</v-card-subtitle>
+              <v-card-text  style="padding-bottom:0;">
+                <v-row justify="center">
+                  <v-col cols="12" sm="2" >
+                    <v-img src="https://cdn.svgporn.com/logos/html-5.svg" style="width:20px"></v-img>
+                  </v-col>
+                </v-row>
+              </v-card-text>
+            </v-card>
+          </nuxt-link>
+        </v-col>
         <v-col v-for="content in contents"
         :key="content.title" cols="12" sm="4" >
           <nuxt-link :to="content.link + content.id">
@@ -37,7 +57,7 @@
               <v-card-subtitle>{{ content.title }} </v-card-subtitle>
               <v-divider></v-divider>
               <v-card-text>
-                <v-img :src="content.img" style=""></v-img>
+                <v-img :src="content.img"></v-img>
               </v-card-text>
               <v-divider></v-divider>
               <v-card-subtitle style="padding-bottom:0;">使用言語</v-card-subtitle>
@@ -69,10 +89,5 @@ export default {
 </script>
 
 <style lang="scss" >
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .5s;
-}
-.fade-enter, .fade-leave-to {
-  opacity: 0;
-}
+
 </style>
