@@ -8,7 +8,7 @@
           <v-card-title><h2>{{ dynamics.title }} </h2> </v-card-title>
           <v-img style="width:700px" :src="dynamics.img"></v-img>
           <v-card-actions style="justify-content:flex-end">
-            <v-icon></v-icon>
+             <fa :icon="faGithub" />
             <v-btn :href="dynamics.to">リンク</v-btn>
           </v-card-actions>
         </v-col>
@@ -41,6 +41,8 @@
 
 <script>
 import { mapGetters } from 'vuex';
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
   export default {
     computed: {
@@ -48,6 +50,12 @@ import { mapGetters } from 'vuex';
       dynamics: function () {
         return this.getDynamicsData(this.$route.params.id);
       },
+      fas () {
+        return fas
+      },
+      faGithub () {
+        return faGithub
+      }
     },
   }
 </script>

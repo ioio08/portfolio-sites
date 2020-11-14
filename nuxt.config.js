@@ -38,9 +38,10 @@ export default {
   ],
 
   fontawesome: {
+    component: 'fa',
     imports: [
       {
-        set: '@fontawesome/free-solid-svg-icons',
+        set: '@fortawesome/free-solid-svg-icons',
         icons: ['fas']
       }
     ]
