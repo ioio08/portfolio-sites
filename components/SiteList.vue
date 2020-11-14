@@ -29,7 +29,7 @@
         </v-container>
       </v-card>
       <v-spacer></v-spacer>
-      <v-row align="center" justify="space-around" style="margin-top: 20px;">
+      <v-row align="center"  style="margin: 20px 20px 0 0;">
         <v-col cols="12" sm="6" >
           <nuxt-link to=" '/dynamics' + 1">
             <v-card hover>
