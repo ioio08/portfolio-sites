@@ -22,9 +22,9 @@ const createStore = () => {
       ],
       items: [
         {icon: 'mdi-home',title: 'ホーム',to: '/'},
-        {icon: 'mdi-apps',title: '動的サイト一覧',to: '/dynamics'},
-        {icon: 'mdi-apps',title: '静的サイト一覧',to: '/statics'},
-        {icon: 'mdi-chart-bubble',title: '作成者について',to: '/admin'}
+        {icon: 'mdi-apps',title: 'アプリ一覧',to: '/dynamics'},
+        {icon: 'mdi-application',title: '静的サイト一覧',to: '/statics'},
+        {icon: 'mdi-account-circle-outline',title: '製作者について',to: '/admin'}
       ],
       statics: [
         {id: '1',title: 'クローンサイト１',link: '/statics/',img: '/images/admin.jpeg' ,git:'',  useLangs: [
