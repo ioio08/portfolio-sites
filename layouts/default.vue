@@ -47,34 +47,17 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
+
 export default {
+  computed: {
+    ...mapState(["items"])
+  },
   data () {
     return {
       clipped: false,
       drawer: false,
       fixed: false,
-      items: [
-        {
-          icon: 'mdi-home',
-          title: 'ホーム',
-          to: '/'
-        },
-        {
-          icon: 'mdi-apps',
-          title: '動的サイト一覧',
-          to: '/dynamics'
-        },
-        {
-          icon: 'mdi-apps',
-          title: '静的サイト一覧',
-          to: '/statics'
-        },
-        {
-          icon: 'mdi-chart-bubble',
-          title: '作成者について',
-          to: '/admin'
-        }
-      ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
