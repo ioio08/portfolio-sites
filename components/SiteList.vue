@@ -30,26 +30,7 @@
       </v-card>
       <v-spacer></v-spacer>
       <v-row align="center"  style="margin: 20px 20px 0 0;">
-        <v-col cols="12" sm="6" >
-          <nuxt-link to=" '/dynamics' + 1">
-            <v-card hover>
-              <v-card-subtitle>Todos </v-card-subtitle>
-              <v-divider></v-divider>
-              <v-card-text>
-                <v-img src="/images/js/Bingo.png" ></v-img>
-              </v-card-text>
-              <v-divider></v-divider>
-              <v-card-subtitle style="padding-bottom:0;">使用言語</v-card-subtitle>
-              <v-card-text  style="padding-bottom:0;">
-                <v-row justify="center">
-                  <v-col cols="12" sm="2" >
-                    <v-img src="https://cdn.svgporn.com/logos/html-5.svg" style="width:20px"></v-img>
-                  </v-col>
-                </v-row>
-              </v-card-text>
-            </v-card>
-          </nuxt-link>
-        </v-col>
+        <slot name="keyApp"></slot>
         <v-col v-for="content in contents"
         :key="content.title" cols="12" sm="4" >
           <nuxt-link :to="content.link + content.id">

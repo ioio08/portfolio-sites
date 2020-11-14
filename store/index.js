@@ -27,49 +27,49 @@ const createStore = () => {
         {icon: 'mdi-chart-bubble',title: '作成者について',to: '/admin'}
       ],
       statics: [
-        {id: '1',title: 'クローンサイト１',link: '/statics/',img: '/images/admin.jpeg' ,useLangs: [
+        {id: '1',title: 'クローンサイト１',link: '/statics/',img: '/images/admin.jpeg' ,git:'',  useLangs: [
             {icon: 'https://cdn.svgporn.com/logos/html-5.svg',},
             {icon: 'https://cdn.svgporn.com/logos/css-3.svg',},]},
-        {id: '2',title: 'クローンサイト２',link: '/statics/',img: '/images/admin.jpeg' ,useLangs: [
+        {id: '2',title: 'クローンサイト２',link: '/statics/',img: '/images/admin.jpeg' ,git:'',  useLangs: [
             {icon: 'https://cdn.svgporn.com/logos/html-5.svg',},
             {icon: 'https://cdn.svgporn.com/logos/css-3.svg',},]},
-        {id: '3',title: 'クローンサイト３',link: '/statics/',img: '/images/admin.jpeg' ,useLangs: [
+        {id: '3',title: 'クローンサイト３',link: '/statics/',img: '/images/admin.jpeg' ,git:'',  useLangs: [
             {icon: 'https://cdn.svgporn.com/logos/html-5.svg',},
             {icon: 'https://cdn.svgporn.com/logos/css-3.svg',},]},
       ],
       dynamics: [
-        {id: 0,title: 'Bingo',link: '/dynamics/',to:'https://js-bingo.netlify.app/',img: '/images/js/Bingo.png' , useLangs: [
+        {id: 0,title: 'Bingo',link: '/dynamics/',to:'https://js-bingo.netlify.app/',img: '/images/js/Bingo.png' , git:'https://github.com/ioio08/Bingo',  useLangs: [
             {title: "HTML", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/html-5.svg",},
             {title: "CSS", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/css-3.svg",},
             {title: "SASS", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/sass.svg",},
             {title: "JavaScript", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/javascript.svg",},]},
-        {id: 1,title: 'Slot',link: '/dynamics/',to:'https://js-slot.netlify.app/',img: '/images/js/Slot.png' , useLangs: [
+        {id: 1,title: 'Slot',link: '/dynamics/',to:'https://js-slot.netlify.app/',img: '/images/js/Slot.png' , git:'https://github.com/ioio08/Slot',  useLangs: [
             {title: "HTML", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/html-5.svg",},
             {title: "CSS", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/css-3.svg",},
             {title: "SASS", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/sass.svg",},
             {
               title: "JavaScript", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/javascript.svg",},]},
-        {id:2,title: 'SlideShow',link: '/dynamics/',to:'https://js-slideshow.netlify.app/',img: '/images/js/SlideShow.png' , useLangs: [
+        {id:2,title: 'SlideShow',link: '/dynamics/',to:'https://js-slideshow.netlify.app/',img: '/images/js/SlideShow.png' , git:'https://github.com/ioio08/SlideShow',  useLangs: [
             {title: "HTML", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/html-5.svg",},
             {title: "CSS", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/css-3.svg",},
             {title: "SASS", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/sass.svg",},
             {title: "JavaScript", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/javascript.svg",},]},
-        {id: 3,title: 'Watch',link: '/dynamics/',to:'https://js-watch.netlify.app/',img: '/images/js/Watch.png' , useLangs: [
+        {id: 3,title: 'Watch',link: '/dynamics/',to:'https://js-watch.netlify.app/',img: '/images/js/Watch.png' , git:'https://github.com/ioio08/Watch',  useLangs: [
             {title: "HTML", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/html-5.svg",},
             {title: "CSS", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/css-3.svg",},
             {title: "SASS", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/sass.svg",},
             {title: "JavaScript", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/javascript.svg",},]},
-        {id: 4,title: 'ChoicesQuestion',link: '/dynamics/',to:'https://js-questions.netlify.app/',img: '/images/js/ChoicesQuestions.png' , useLangs: [
+        {id: 4,title: 'ChoicesQuestion',link: '/dynamics/',to:'https://js-questions.netlify.app/',img: '/images/js/ChoicesQuestions.png' , git:'https://github.com/ioio08/choice_question',  useLangs: [
             {title: "HTML", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/html-5.svg",},
             {title: "CSS", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/css-3.svg",},
             {title: "SASS", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/sass.svg",},
             {title: "JavaScript", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/javascript.svg",},]},
-        {id: 5,title: 'Typing',link: '/dynamics/',to:'https://js-typing.netlify.app/',img: '/images/js/Typing.png' , useLangs: [
+        {id: 5,title: 'Typing',link: '/dynamics/',to:'https://js-typing.netlify.app/',img: '/images/js/Typing.png' , git:'https://github.com/ioio08/Typing',  useLangs: [
             {title: "HTML", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/html-5.svg",},
             {title: "CSS", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/css-3.svg",},
             {title: "SASS", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/sass.svg",},
             {title: "JavaScript", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/javascript.svg",},]},
-        {id: 6,title: 'Calender',link: '/dynamics/',to:'https://js-calender.netlify.app/',img: '/images/js/Calender.png' , useLangs: [
+        {id: 6,title: 'Calender',link: '/dynamics/',to:'https://js-calender.netlify.app/',img: '/images/js/Calender.png' , git:'https://github.com/ioio08/Calendar',  useLangs: [
             {title: "HTML", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/html-5.svg",},
             {title: "CSS", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/css-3.svg",},
             {title: "SASS", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/sass.svg",},
