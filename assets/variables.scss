@@ -2,3 +2,17 @@
 //
 // The variables you want to modify
 // $font-size-root: 20px;
+
+
+.page-enter-active {
+  transition: opacity 1s ease-out;
+}
+
+.page-leave-active {
+  transition: opacity 2s ease-in;
+}
+
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}

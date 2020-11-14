@@ -1,8 +1,9 @@
 <template>
   <SiteList :contents="dynamics">
-    <template v-slot:title>動的</template>
+    <template v-slot:title>アプリ</template>
   </SiteList>
 </template>
+
 <script>
   import SiteList from '@/components/SiteList'
 

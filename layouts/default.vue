@@ -37,7 +37,9 @@
 
     <v-main>
       <v-container>
-        <nuxt />
+        <transition name="page">
+          <nuxt />
+        </transition>
       </v-container>
     </v-main>
 
@@ -76,7 +78,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js'
+      title: 'My-Portfolio-Site'
     }
   }
 }

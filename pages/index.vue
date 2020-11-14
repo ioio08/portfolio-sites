@@ -40,7 +40,7 @@
                 </v-row>
               </v-card-text>
               <v-card-actions>
-                <v-btn to="/dynamics">動的サイト一覧へ</v-btn>
+                <v-btn to="/dynamics">アプリ一覧へ</v-btn>
               </v-card-actions>
             </v-col>
           </v-row>
@@ -50,7 +50,7 @@
     <v-col cols="12" sm="6">
       <v-card hover>
         <v-container>
-          <v-card-title>作成者</v-card-title>
+          <v-card-title>製作者</v-card-title>
           <v-divider></v-divider>
           <v-container>
             <v-row  justify="center" align="center">

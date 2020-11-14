@@ -1,6 +1,6 @@
 <template>
   <SiteList :contents="statics">
-    <template v-slot:title>静的</template>
+    <template v-slot:title>静的サイト</template>
   </SiteList>
 </template>
 

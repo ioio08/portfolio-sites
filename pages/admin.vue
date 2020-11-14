@@ -1,6 +1,6 @@
 <template>
   <v-card>
-    <v-card-title>作成者について</v-card-title>
+    <v-card-title>製作者について</v-card-title>
     <v-divider></v-divider>
     <v-container style="padding-top:0;">
       <v-row justify="center" align="center">
