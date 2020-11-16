@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import SiteList from '@/components/SiteList'
+import SiteList from '@/components/Sites/SiteList'
 import { mapState } from 'vuex'
 
 export default {
