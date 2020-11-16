@@ -27,13 +27,13 @@ const createStore = () => {
         {icon: 'mdi-account-circle-outline',title: '製作者について',to: '/admin'}
       ],
       statics: [
+        {id: '0',title: 'FV-Code',link: '/statics/',img: '/images/admin.jpeg' ,git:'',  useLangs: [
+            {icon: 'https://cdn.svgporn.com/logos/html-5.svg',},
+            {icon: 'https://cdn.svgporn.com/logos/css-3.svg',},]},
         {id: '1',title: 'クローンサイト１',link: '/statics/',img: '/images/admin.jpeg' ,git:'',  useLangs: [
             {icon: 'https://cdn.svgporn.com/logos/html-5.svg',},
             {icon: 'https://cdn.svgporn.com/logos/css-3.svg',},]},
         {id: '2',title: 'クローンサイト２',link: '/statics/',img: '/images/admin.jpeg' ,git:'',  useLangs: [
-            {icon: 'https://cdn.svgporn.com/logos/html-5.svg',},
-            {icon: 'https://cdn.svgporn.com/logos/css-3.svg',},]},
-        {id: '3',title: 'クローンサイト３',link: '/statics/',img: '/images/admin.jpeg' ,git:'',  useLangs: [
             {icon: 'https://cdn.svgporn.com/logos/html-5.svg',},
             {icon: 'https://cdn.svgporn.com/logos/css-3.svg',},]},
       ],
