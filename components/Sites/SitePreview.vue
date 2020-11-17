@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card style="margin-top:40px">
     <v-card-title>サイトについて</v-card-title>
     <v-divider></v-divider>
     <v-container style="padding-top:0;">
@@ -78,4 +78,5 @@ export default {
     border-radius: 50%;
   }
 }
+
 </style>

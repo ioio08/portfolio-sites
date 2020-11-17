@@ -1,13 +1,13 @@
 <template>
   <v-navigation-drawer
-    v-model="drawer"
-    :mini-variant="miniVariant"
-    :clipped="clipped"
+    v-model="sidebars.drawer"
+    :mini-variant="sidebars.miniVariant"
+    :clipped="sidebars.clipped"
     fixed
     app
   >
     <v-list>
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+      <v-app-bar-nav-icon @click.stop="sidebars.drawer = !sidebars.drawer" />
       <v-list-item
         v-for="(item, i) in items"
         :key="i"
@@ -30,7 +30,7 @@
 import { mapState } from 'vuex'
 
 export default {
-  props:['drawer', 'clipped', 'miniVariant'],
+  props:['sidebars'],
   computed: {
     ...mapState(['items'])
   },

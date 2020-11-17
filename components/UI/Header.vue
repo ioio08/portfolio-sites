@@ -1,16 +1,14 @@
 <template>
   <div>
     <Sidebar
-    :clipped="clipped"
-    :drawer="drawer"
-    :mini-variant="miniVariant"
+    :sidebars="sidebars"
     />
     <v-app-bar
-      :clipped-left="clipped"
+      :clipped-left="sidebars.clipped"
       fixed
       app
     >
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+      <v-app-bar-nav-icon @click.stop="sidebars.drawer = !sidebars.drawer" />
       <v-spacer />
       <nuxt-link to="/">
         <v-toolbar-title v-text="title" />
@@ -27,12 +25,14 @@ import Sidebar from '@/components/UI/Sidebar'
 export default {
   data () {
     return {
-      clipped: false,
-      drawer: false,
-      fixed: false,
-      miniVariant: false,
-      right: true,
-      rightDrawer: false,
+      sidebars: {
+        clipped: false,
+        drawer: false,
+        fixed: false,
+        miniVariant: false,
+        right: true,
+        rightDrawer: false,
+      },
       title: 'My-Portfolio-Site'
     }
   }
@@ -44,6 +44,13 @@ export default {
 .v-toolbar__title {
   font-size: 25px;
   margin-right: 50px;
+
+  &:hover {
+    background: rgb(175, 175, 175);
+    transition: .2s;
+    padding: 10px 15px;
+    border-radius: 20px ;
+  }
 
 }
 .v-application a{

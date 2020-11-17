@@ -27,54 +27,67 @@ const createStore = () => {
         {icon: 'mdi-account-circle-outline',title: '製作者について',to: '/admin'}
       ],
       statics: [
-        {id: '0',title: 'FV-Code',link: '/statics/',to: '', img: '/images/admin.jpeg' ,git:'',  useLangs: [
-            {icon: 'https://cdn.svgporn.com/logos/html-5.svg',},
-            {icon: 'https://cdn.svgporn.com/logos/css-3.svg',},]},
-        {id: '1',title: 'クローンサイト１',link: '/statics/',to: '', img: '/images/admin.jpeg' ,git:'',  useLangs: [
-            {icon: 'https://cdn.svgporn.com/logos/html-5.svg',},
-            {icon: 'https://cdn.svgporn.com/logos/css-3.svg',},]},
-        {id: '2',title: 'クローンサイト２',link: '/statics/',to: '', img: '/images/admin.jpeg' ,git:'',  useLangs: [
-            {icon: 'https://cdn.svgporn.com/logos/html-5.svg',},
-            {icon: 'https://cdn.svgporn.com/logos/css-3.svg',},]},
+        {id:'0',title:'Profile',link:'/statics/',to:'https://profile-1st.netlify.app/', img:'/images/statics/Profile.png' ,git:'https://github.com/ioio08/myprofile',  useLangs: [
+            {title: "HTML", width: "width:30px;",icon: 'https://cdn.svgporn.com/logos/html-5.svg',},
+            {title: "CSS", width: "width:30px;", icon: 'https://cdn.svgporn.com/logos/css-3.svg',},
+            {title: "SASS", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/sass.svg",},]},
+        {id:'1',title:'オリジナルサイト',link:'/statics/',to:'https://fv-code.netlify.app/', img:'/images/statics/FV-code.png' ,git:'https://github.com/ioio08/portfolio',  useLangs: [
+            {title: "HTML", width: "width:30px;",icon: 'https://cdn.svgporn.com/logos/html-5.svg',},
+            {title: "CSS", width: "width:30px;", icon: 'https://cdn.svgporn.com/logos/css-3.svg',},]},
+        {id: '2',title: 'クローンサイト',link: '/statics/',to: 'https://clone-1.netlify.app/', img: '/images/statics/Clone.png' ,git:'https://github.com/ioio08/clone1',  useLangs: [
+            {title: "HTML", width: "width:30px;",icon: 'https://cdn.svgporn.com/logos/html-5.svg',},
+            {title: "CSS", width: "width:30px;", icon: 'https://cdn.svgporn.com/logos/css-3.svg',},]},
+        {id: '3',title: 'Udemy-custom1',link: '/statics/',to: 'https://udemy-1.netlify.app/', img: '/images/statics/Udemy1.png' ,git:'https://github.com/ioio08/Udemy_1',  useLangs: [
+            {title: "HTML", width: "width:30px;",icon: 'https://cdn.svgporn.com/logos/html-5.svg',},
+            {title: "CSS", width: "width:30px;", icon: 'https://cdn.svgporn.com/logos/css-3.svg',},]},
+        {id: '4',title: 'Udemy-custom2',link: '/statics/',to: 'https://udemy-2.netlify.app/', img: '/images/statics/Udemy2.png' ,git:'https://github.com/ioio08/Udemy_2',  useLangs: [
+            {title: "HTML", width: "width:30px;",icon: 'https://cdn.svgporn.com/logos/html-5.svg',},
+            {title: "CSS", width: "width:30px;", icon: 'https://cdn.svgporn.com/logos/css-3.svg',},]},
+        {id: '5',title: 'Udemy-custom3',link: '/statics/',to: 'https://udemy-3.netlify.app/', img: '/images/statics/Udemy3.png' ,git:'https://github.com/ioio08/Udemy_3',  useLangs: [
+            {title: "HTML", width: "width:30px;",icon: 'https://cdn.svgporn.com/logos/html-5.svg',},
+            {title: "CSS", width: "width:30px;", icon: 'https://cdn.svgporn.com/logos/css-3.svg',},]},
+        {id: '6',title: 'Udemy-custom4',link: '/statics/',to: 'https://udemy-4.netlify.app/', img: '/images/statics/Udemy4.png' ,git:'https://github.com/ioio08/Udemy_4',  useLangs: [
+            {title: "HTML", width: "width:30px;",icon: 'https://cdn.svgporn.com/logos/html-5.svg',},
+            {title: "CSS", width: "width:30px;", icon: 'https://cdn.svgporn.com/logos/css-3.svg',},]},
       ],
       dynamics: [
-        {id: 0,title: 'Bingo',link: '/dynamics/',to:'https://js-bingo.netlify.app/',img: '/images/js/Bingo.png' , git:'https://github.com/ioio08/Bingo',  useLangs: [
+        {id: 0,title: 'Bingo',link: '/dynamics/',to:'https://js-bingo.netlify.app/',img: '/images/dynamics/Bingo.png' , git:'https://github.com/ioio08/Bingo',  useLangs: [
             {title: "HTML", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/html-5.svg",},
             {title: "CSS", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/css-3.svg",},
             {title: "SASS", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/sass.svg",},
             {title: "JavaScript", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/javascript.svg",},]},
-        {id: 1,title: 'Slot',link: '/dynamics/',to:'https://js-slot.netlify.app/',img: '/images/js/Slot.png' , git:'https://github.com/ioio08/Slot',  useLangs: [
+        {id: 1,title: 'Slot',link: '/dynamics/',to:'https://js-slot.netlify.app/',img: '/images/dynamics/Slot.png' , git:'https://github.com/ioio08/Slot',  useLangs: [
             {title: "HTML", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/html-5.svg",},
             {title: "CSS", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/css-3.svg",},
             {title: "SASS", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/sass.svg",},
             {
               title: "JavaScript", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/javascript.svg",},]},
-        {id:2,title: 'SlideShow',link: '/dynamics/',to:'https://js-slideshow.netlify.app/',img: '/images/js/SlideShow.png' , git:'https://github.com/ioio08/SlideShow',  useLangs: [
+        {id:2,title: 'SlideShow',link: '/dynamics/',to:'https://js-slideshow.netlify.app/',img: '/images/dynamics/SlideShow.png' , git:'https://github.com/ioio08/SlideShow',  useLangs: [
             {title: "HTML", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/html-5.svg",},
             {title: "CSS", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/css-3.svg",},
             {title: "SASS", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/sass.svg",},
             {title: "JavaScript", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/javascript.svg",},]},
-        {id: 3,title: 'Watch',link: '/dynamics/',to:'https://js-watch.netlify.app/',img: '/images/js/Watch.png' , git:'https://github.com/ioio08/Watch',  useLangs: [
+        {id: 3,title: 'Watch',link: '/dynamics/',to:'https://js-watch.netlify.app/',img: '/images/dynamics/Watch.png' , git:'https://github.com/ioio08/Watch',  useLangs: [
             {title: "HTML", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/html-5.svg",},
             {title: "CSS", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/css-3.svg",},
             {title: "SASS", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/sass.svg",},
             {title: "JavaScript", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/javascript.svg",},]},
-        {id: 4,title: 'ChoicesQuestion',link: '/dynamics/',to:'https://js-questions.netlify.app/',img: '/images/js/ChoicesQuestions.png' , git:'https://github.com/ioio08/choice_question',  useLangs: [
+        {id: 4,title: 'ChoicesQuestion',link: '/dynamics/',to:'https://js-questions.netlify.app/',img: '/images/dynamics/ChoicesQuestions.png' , git:'https://github.com/ioio08/choice_question',  useLangs: [
             {title: "HTML", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/html-5.svg",},
             {title: "CSS", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/css-3.svg",},
             {title: "SASS", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/sass.svg",},
             {title: "JavaScript", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/javascript.svg",},]},
-        {id: 5,title: 'Typing',link: '/dynamics/',to:'https://js-typing.netlify.app/',img: '/images/js/Typing.png' , git:'https://github.com/ioio08/Typing',  useLangs: [
+        {id: 5,title: 'Typing',link: '/dynamics/',to:'https://js-typing.netlify.app/',img: '/images/dynamics/Typing.png' , git:'https://github.com/ioio08/Typing',  useLangs: [
             {title: "HTML", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/html-5.svg",},
             {title: "CSS", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/css-3.svg",},
             {title: "SASS", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/sass.svg",},
             {title: "JavaScript", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/javascript.svg",},]},
-        {id: 6,title: 'Calender',link: '/dynamics/',to:'https://js-calender.netlify.app/',img: '/images/js/Calender.png' , git:'https://github.com/ioio08/Calendar',  useLangs: [
+        {id: 6,title: 'Calender',link: '/dynamics/',to:'https://js-calender.netlify.app/',img: '/images/dynamics/Calender.png' , git:'https://github.com/ioio08/Calendar',  useLangs: [
             {title: "HTML", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/html-5.svg",},
             {title: "CSS", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/css-3.svg",},
             {title: "SASS", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/sass.svg",},
             {title: "JavaScript", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/javascript.svg",},]},
-        {id: 7,title: 'Todo-App',link: '/dynamics/',to:'https://todo-vuejs-lesson.netlify.app/',img: '/images/vue/Todo.png' , git:'https://github.com/ioio08/try_todolist',  useLangs: [
+        {id: 7,title: 'Todo-App',link: '/dynamics/',to:'https://todo-vuejs-lesson.netlify.app/',img: '/images/dynamics/Todo.png' , git:'https://github.com/ioio08/try_todolist',  useLangs: [
           {title: "HTML", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/html-5.svg",},
           {title: "CSS", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/css-3.svg",},
           {title: "SASS", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/sass.svg",},
