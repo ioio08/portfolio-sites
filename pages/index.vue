@@ -6,7 +6,7 @@
           <v-card-title>コンテンツサイト</v-card-title>
           <v-divider></v-divider>
           <v-row justify="center" align="center">
-            <v-col cols="12" sm="6" md="6">
+            <v-col cols="12" sm="6" md="6"   style="margin-top:60px">
               <v-card-text>
                 <v-row justify="center" align="center">
                   <v-col

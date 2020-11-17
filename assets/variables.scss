@@ -16,3 +16,10 @@
 .page-leave-active {
   opacity: 0;
 }
+
+.v-btn {
+  &:hover {
+    background: rgba(175, 175, 175, 0.246)!important;
+    transition: .2s !important;
+  }
+}

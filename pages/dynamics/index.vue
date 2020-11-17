@@ -1,6 +1,35 @@
 <template>
   <SiteList :contents="dynamics" >
     <template v-slot:title>アプリ</template>
+    <template v-slot:topApp>
+      <nuxt-link to="/dynamics/1">
+        <v-card hover style="margin-top:20px;">
+          <v-container>
+            <v-row align="center" justify="center">
+              <v-col cols="12" sm="6" md="5" lg="5">
+                <v-card-text>
+                  <v-img src="/images/dynamics/SlideShow.png"></v-img>
+                </v-card-text>
+              </v-col>
+              <v-spacer></v-spacer>
+              <v-col cols="12" sm="6" md="6" lg="6">
+                <transition name="fade">
+                  <v-card-title><h3 >Mono-Que</h3> </v-card-title>
+                </transition>
+                <transition name="fade">
+                  <v-card-text >
+                    <h3 >モノと対話するように</h3>
+                  </v-card-text>
+                </transition>
+                <v-card-text>
+                  <p >身近なモノ、気になるモノ、手放そうとするモノ。<br>そんなモノタチと少しの時間だけでも、対話するように接してみて欲しくて制作しました。 </p>
+                </v-card-text>
+              </v-col>
+            </v-row>
+          </v-container>
+        </v-card>
+      </nuxt-link>
+    </template>
     <template v-slot:keyApp>
       <v-col cols="12" sm="6" >
           <nuxt-link :to="dynamics[7].link + dynamics[7].id">
