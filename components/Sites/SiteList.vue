@@ -44,10 +44,6 @@ export default {
 </script>
 
 <style lang="scss" >
-.v-card {
-  &:hover {
-    background: rgba(175, 175, 175, 0.246)!important;
-    transition: .2s !important;
-  }
-}
+
+
 </style>

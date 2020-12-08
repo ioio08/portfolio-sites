@@ -2,19 +2,19 @@
   <SiteList :contents="dynamics" >
     <template v-slot:title>アプリ</template>
     <template v-slot:topApp>
-      <nuxt-link to="/dynamics/1">
+      <nuxt-link to="/dynamics/8">
         <v-card hover style="margin-top:20px;">
           <v-container>
             <v-row align="center" justify="center">
               <v-col cols="12" sm="6" md="5" lg="5">
                 <v-card-text>
-                  <v-img src="/images/dynamics/SlideShow.png"></v-img>
+                  <v-img src="/images/dynamics/MONODY.png"></v-img>
                 </v-card-text>
               </v-col>
               <v-spacer></v-spacer>
               <v-col cols="12" sm="6" md="6" lg="6">
                 <transition name="fade">
-                  <v-card-title><h3 >Mono-Que</h3> </v-card-title>
+                  <v-card-title><h3 >MONODY</h3> </v-card-title>
                 </transition>
                 <transition name="fade">
                   <v-card-text >
@@ -22,7 +22,7 @@
                   </v-card-text>
                 </transition>
                 <v-card-text>
-                  <p >身近なモノ、気になるモノ、手放そうとするモノ。<br>そんなモノタチと少しの時間だけでも、対話するように接してみて欲しくて制作しました。 </p>
+                  <p >身近なモノ、気になるモノ、手放そうとするモノ。<br>そんなモノと少しの時間だけでも、対話するように接してみて欲しくて制作しました。 </p>
                 </v-card-text>
               </v-col>
             </v-row>
@@ -52,7 +52,6 @@
           </nuxt-link>
         </v-col>
         <v-spacer></v-spacer>
-
     </template>
   </SiteList>
 </template>

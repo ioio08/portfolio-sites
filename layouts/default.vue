@@ -1,7 +1,6 @@
 <template>
   <v-app >
     <Header/>
-
     <v-main>
       <v-container>
         <transition name="page">
@@ -9,7 +8,6 @@
         </transition>
       </v-container>
     </v-main>
-
   </v-app>
 </template>
 
@@ -22,6 +20,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+.container {
+  max-width: 1024px;
+}
 
 
 </style>

@@ -89,10 +89,15 @@ const createStore = () => {
             {title: "JavaScript", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/javascript.svg",},]},
         {id: 7,title: 'Todo-App',link: '/dynamics/',to:'https://todo-vuejs-lesson.netlify.app/',img: '/images/dynamics/Todo.png' , git:'https://github.com/ioio08/try_todolist',  useLangs: [
           {title: "HTML", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/html-5.svg",},
-          {title: "CSS", width: "width:20px;", icon: "https://cdn.svgporn.com/logos/css-3.svg",},
           {title: "SASS", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/sass.svg",},
-          {title: "JavaScript", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/javascript.svg",},
-          {title: "Vue", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/vue.svg",},]}
+          {title: "Vue", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/vue.svg",},]},
+        {id: 8,title: 'MONODY',link: '/dynamics/',to:'https://mono-que-data.firebaseapp.com/',img: '/images/dynamics/MONODY.png' , git:'https://github.com/ioio08/mono_que_vuetify',  useLangs: [
+          {title: "SASS", width: "width:35px;", icon: "https://cdn.svgporn.com/logos/sass.svg",},
+          {title: "Nuxt", width: "width:35px;", icon: "https://cdn.svgporn.com/logos/nuxt-icon.svg", },
+          {title: "Firebase", width: "width:26px;", icon:"https://cdn.svgporn.com/logos/firebase.svg",},
+        ]
+        },
+
       ],
 
     },
