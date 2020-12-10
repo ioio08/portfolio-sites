@@ -18,7 +18,7 @@
             <v-divider></v-divider>
             <v-card-subtitle style="padding-bottom:0;">使用言語</v-card-subtitle>
             <v-card-text  style="padding-bottom:0;">
-              <v-row justify="center">
+              <v-row justify="start">
                 <v-col cols="12" sm="2" v-for="lang in content.useLangs" :key="lang.icon">
                   <v-img :style="lang.width" :src="lang.icon"></v-img>
                 </v-col>

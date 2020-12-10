@@ -3,7 +3,7 @@
     <v-card-title>サイトについて</v-card-title>
     <v-divider></v-divider>
     <v-container style="padding-top:0;">
-      <v-row justify="center" align="center">
+      <v-row justify="center" align="start">
         <v-col cols="12" sm="6">
           <v-card-title><h2>{{ contents.title }} </h2> </v-card-title>
           <v-img style="width:700px" :src="contents.img"></v-img>
@@ -17,7 +17,7 @@
           <v-divider></v-divider>
           <v-card-subtitle>使用言語</v-card-subtitle>
           <v-card-text>
-            <v-row justify="center">
+            <v-row justify="start">
               <v-col
               cols="12"
               sm="2"
@@ -28,15 +28,11 @@
               </v-col>
             </v-row>
           </v-card-text>
-          <v-divider></v-divider>
-          <v-card-subtitle>機能</v-card-subtitle>
-          <v-card-text>
-            <v-sheet></v-sheet>
-          </v-card-text>
+          <slot name="functions"></slot>
           <v-divider></v-divider>
           <v-card-subtitle>注力ポイント</v-card-subtitle>
           <v-card-text>
-            <v-sheet></v-sheet>
+            <v-sheet><h2 style="margin-bottom:10px; line-height:30px">{{ contents.point }}</h2><h3>コード詳細はGitHubで公開しています。</h3></v-sheet>
           </v-card-text>
         </v-col>
       </v-row>
