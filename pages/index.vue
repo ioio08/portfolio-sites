@@ -6,7 +6,8 @@
           <v-card-title>コンテンツサイト</v-card-title>
           <v-divider></v-divider>
           <v-row justify="center" align="center">
-            <v-col cols="12" sm="6" md="6"   style="margin-top:60px">
+            <v-spacer></v-spacer>
+            <v-col cols="12" sm="5" md="5"   style="margin-top:60px">
               <v-card-text>
                 <v-row justify="center" align="center">
                   <v-col
@@ -40,7 +41,7 @@
                 </v-row>
               </v-card-text>
               <v-card-actions>
-                <v-btn to="/dynamics">アプリ一覧へ</v-btn>
+                <v-btn class="dynamics-btn" to="/dynamics">アプリ一覧へ</v-btn>
               </v-card-actions>
             </v-col>
           </v-row>
@@ -91,7 +92,11 @@ export default {
 }
 
 .v-btn {
-  margin: 0 0 0 10px;
+  margin: 0 0 0 8px;
+}
+
+.dynamics-btn.v-btn {
+  margin: 0 0 0 20px;
 }
 
 

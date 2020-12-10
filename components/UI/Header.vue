@@ -1,32 +1,26 @@
 <template>
   <div>
-    <Sidebar
-    :sidebars="sidebars"
-    />
     <v-app-bar
-      :clipped-left="sidebars.clipped"
       fixed
       app
     >
-      <v-app-bar-nav-icon @click.stop="sidebars.drawer = !sidebars.drawer" />
-      <v-spacer />
+    <v-spacer></v-spacer>
       <nuxt-link to="/">
         <v-toolbar-title v-text="title" />
       </nuxt-link>
-      <v-spacer />
+    <v-spacer></v-spacer>
     </v-app-bar>
   </div>
 </template>
 
 <script>
-import Sidebar from '@/components/UI/Sidebar'
 
 
 export default {
   data () {
     return {
+      clipped: false,
       sidebars: {
-        clipped: false,
         drawer: false,
         fixed: false,
         miniVariant: false,
