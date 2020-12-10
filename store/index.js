@@ -27,10 +27,11 @@ const createStore = () => {
         {icon: 'mdi-account-circle-outline',title: '製作者について',to: '/admin'}
       ],
       statics: [
-        {id:'0',title:'Profile',link:'/statics/',to:'https://profile-1st.netlify.app/', img:'/images/statics/Profile.png' ,git:'https://github.com/ioio08/myprofile', functions:['',], point:'', useLangs: [
+        {id:'0',title:'Profile',link:'/statics/',to:'https://profile-1st.netlify.app/', img:'/images/statics/Profile.png' ,git:'https://github.com/ioio08/myprofile', functions:['',], point:'SCSSだけでなくJavaScriptを採用し、スクロールイベントを実装しています。', useLangs: [
             {title: "HTML", width: "width:30px;",icon: 'https://cdn.svgporn.com/logos/html-5.svg',},
             {title: "CSS", width: "width:30px;", icon: 'https://cdn.svgporn.com/logos/css-3.svg',},
-            {title: "SASS", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/sass.svg",},]},
+            {title: "SASS", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/sass.svg",},
+          {title: "JavaScript", width: "width:30px;", icon: "https://cdn.svgporn.com/logos/javascript.svg",}]},
         {id:'1',title:'オリジナルサイト',link:'/statics/',to:'https://fv-code.netlify.app/', img:'/images/statics/FV-code.png' ,git:'https://github.com/ioio08/portfolio', functions:['',], point:'', useLangs: [
             {title: "HTML", width: "width:30px;",icon: 'https://cdn.svgporn.com/logos/html-5.svg',},
             {title: "CSS", width: "width:30px;", icon: 'https://cdn.svgporn.com/logos/css-3.svg',},]},
