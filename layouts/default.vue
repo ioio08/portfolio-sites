@@ -15,6 +15,9 @@
 import Header from '@/components/UI/Header'
 
 export default {
+  props: {
+    Header
+  }
 
 }
 </script>

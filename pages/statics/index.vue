@@ -2,27 +2,26 @@
   <SiteList :contents="statics">
     <template v-slot:title>静的サイト</template>
     <template v-slot:topApp>
-      <nuxt-link to="/statics/1">
+      <nuxt-link to="/statics/0">
         <v-card hover style="margin-top:20px;">
           <v-container>
             <v-row align="center" justify="center">
               <v-col cols="12" sm="6" md="5" lg="5">
                 <v-card-text>
-                  <v-img src="/images/statics/FV-code.png"></v-img>
+                  <v-img src="/images/statics/Profile.png"></v-img>
                 </v-card-text>
               </v-col>
               <v-spacer></v-spacer>
               <v-col cols="12" sm="6" md="6" lg="6">
-                <transition name="fade">
-                  <v-card-title><h3>オリジナルサイト</h3></v-card-title>
-                </transition>
-                <transition name="fade">
-                  <v-card-text >
-                    <h3>FV-Code</h3>
-                  </v-card-text>
-                </transition>
+                <v-card-text >
+                  <h1>Profile</h1>
+                </v-card-text>
                 <v-card-text>
-                  <p>服飾に興味があり作成しました。<br>装うという行為に焦点を当て、多様な角度からその価値に対する個人的な意見を発信する為のサイトレイアウトを作成しました。<br> </p>
+                  <h3>履歴書には書ききれない個人的な趣味や過去の実績について掲載しています。<br>
+                  StyleにSCSSを採用して工夫した点は大きく３点あります。<br>
+                  1:マジックコードを避ける。<br>
+                  2:レスポンシブ対応<br>
+                  3:BEM記法に基づいた設計 </h3>
                 </v-card-text>
               </v-col>
             </v-row>

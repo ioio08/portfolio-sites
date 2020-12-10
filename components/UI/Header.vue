@@ -1,9 +1,6 @@
 <template>
   <div>
-    <v-app-bar
-      fixed
-      app
-    >
+    <v-app-bar fixed app>
     <v-spacer></v-spacer>
       <nuxt-link to="/">
         <v-toolbar-title v-text="title" />
@@ -37,7 +34,6 @@ export default {
 
 .v-toolbar__title {
   font-size: 25px;
-  margin-right: 50px;
 
   &:hover {
     background: rgb(175, 175, 175);
