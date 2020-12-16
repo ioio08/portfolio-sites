@@ -104,7 +104,6 @@ const createStore = () => {
           {title: "Firebase", width: "width:20px;", icon:"https://cdn.svgporn.com/logos/firebase.svg",},
         ]
         },
-
       ],
 
     },
